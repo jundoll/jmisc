@@ -11,6 +11,8 @@ Depends:
   dplyr,
   pipeR
 Imports: 
+  dplyr, 
+  pipeR,
   httr,
   rjson,
   RCurl
