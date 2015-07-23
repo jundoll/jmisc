@@ -3,7 +3,6 @@
 export(GEO)
 export(MW)
 export(Mode)
-export(R2Rmd)
 export(cantype)
 export(col)
 export(gc20)
