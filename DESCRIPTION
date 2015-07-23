@@ -1,0 +1,16 @@
+Package: jmisc
+Type: Package
+Title: Misc Package by jundoll
+Version: 0.0.1
+Date: 2015-07-23
+Author: jundoll
+Maintainer: jundoll <jundoll33@gmail.com>
+Description: Misc Package made by jundoll
+License: GPL-2
+Depends: 
+  dplyr,
+  pipeR
+Imports: 
+  httr,
+  rjson,
+  RCurl
