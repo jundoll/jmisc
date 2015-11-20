@@ -1,18 +1,19 @@
 Package: jmisc
 Type: Package
 Title: Misc Package by jundoll
-Version: 0.0.1
-Date: 2015-07-23
-Author: jundoll
+Version: 0.0.3
+Date: 2015-11-20
+Author: Atsushi Yoshida (@jun2_3)
 Maintainer: jundoll <jundoll33@gmail.com>
-Description: Misc Package made by jundoll
+Description: Misc Package by jundoll
 License: GPL-2
-Depends: 
-  dplyr,
-  pipeR
-Imports: 
-  dplyr, 
-  pipeR,
-  httr,
-  rjson,
-  RCurl
+Depends:
+    dplyr,
+    pipeR,
+    tidyr
+Imports:
+    httr,
+    rjson,
+    RCurl,
+    pforeach
+RoxygenNote: 5.0.1

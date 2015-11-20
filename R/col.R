@@ -1,8 +1,9 @@
-#' Undescribed
+#' Easy color interpolation
 #' 
-#' @param Undescribed
+#' @param x A vector of values corresponded to the colors
+#' @param colors A character vector of colors to interpolate
 #' 
-#' @return Undescribed
+#' @return The interpolated color code
 #' @examples
 #' x <- 1:10
 #' plot(x, pch = 19, col = col(x))
