@@ -2,12 +2,12 @@
 % Please edit documentation in R/col.R
 \name{col}
 \alias{col}
-\title{Easy color interpolation}
+\title{Easy color linear interpolation}
 \usage{
 col(x, colors = c("blue", "red"))
 }
 \arguments{
-\item{x}{A vector of values corresponded to the colors}
+\item{x}{A vector (or array) of values corresponded to the colors}
 
 \item{colors}{A character vector of colors to interpolate}
 }
@@ -15,7 +15,7 @@ col(x, colors = c("blue", "red"))
 The interpolated color code
 }
 \description{
-Easy color interpolation
+Easy color linear interpolation
 }
 \examples{
 x <- 1:10
