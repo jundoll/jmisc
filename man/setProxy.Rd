@@ -4,7 +4,8 @@
 \alias{setProxy}
 \title{Undescribed}
 \usage{
-setProxy(url = Sys.getenv("PROXY_URL"), port = Sys.getenv("PROXY_PORT"))
+setProxy(url = getOption("jmisc.proxy.url"),
+  port = getOption("jmisc.proxy.port"))
 }
 \arguments{
 \item{Undescribed}{}

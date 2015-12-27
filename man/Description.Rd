@@ -4,14 +4,17 @@
 \alias{Description}
 \title{Create the header templete of the file}
 \usage{
-Description(desc = "This is a test message.", symbol = "#", sharp = 50)
+Description(desc = "This is a test message.", symbol = "#", sym_len = 50,
+  ...)
 }
 \arguments{
 \item{desc}{A character that is the description}
 
 \item{symbol}{The symbol that is consists of the header}
 
-\item{sharp}{The width of the header}
+\item{sym_len}{The width of the header}
+
+\item{...}{Another item}
 }
 \value{
 The header templete of the file

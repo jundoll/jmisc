@@ -1,8 +1,12 @@
-#' Undescribe
+#' Replace corresponding elements
 #' 
-#' @param Undescribe
+#' @param x vector
+#' @param from the replaced vector
+#' @param to the replacing vector
+#' @param last the last value
+#' @param evaluate if TRUE, the replaced x will be returned, else, the call sentence before evaluation
 #' 
-#' @return Undescribe
+#' @return replaced x
 #' @examples replaces(1:10, 1:3, 3:5)
 #' @export
 replaces <- function(x, from, to, last = FALSE, evaluate = TRUE) {

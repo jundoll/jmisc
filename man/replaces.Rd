@@ -2,18 +2,26 @@
 % Please edit documentation in R/replaces.R
 \name{replaces}
 \alias{replaces}
-\title{Undescribe}
+\title{Replace corresponding elements}
 \usage{
 replaces(x, from, to, last = FALSE, evaluate = TRUE)
 }
 \arguments{
-\item{Undescribe}{}
+\item{x}{vector}
+
+\item{from}{the replaced vector}
+
+\item{to}{the replacing vector}
+
+\item{last}{the last value}
+
+\item{evaluate}{if TRUE, the replaced x will be returned, else, the call sentence before evaluation}
 }
 \value{
-Undescribe
+replaced x
 }
 \description{
-Undescribe
+Replace corresponding elements
 }
 \examples{
 replaces(1:10, 1:3, 3:5)

@@ -2,24 +2,32 @@
 % Please edit documentation in R/col.R
 \name{col}
 \alias{col}
-\title{Easy color linear interpolation}
+\title{Easy color scale maker}
 \usage{
-col(x, colors = c("blue", "red"))
+col(x, colors = c("blue", "red"), method = "linear", n, ...)
 }
 \arguments{
 \item{x}{A vector (or array) of values corresponded to the colors}
 
-\item{colors}{A character vector of colors to interpolate}
+\item{colors}{A character vector of the base colors to interpolate}
+
+\item{method}{An interpolation method. Choose from "linear" or "quantile".}
+
+\item{n}{If `method` is "quantile", select the number of the division.}
 }
 \value{
 The interpolated color code
 }
 \description{
-Easy color linear interpolation
+Easy color scale maker
 }
 \examples{
 x <- 1:10
 plot(x, pch = 19, col = col(x))
 plot(x, pch = 19, col = col(-x))
+
+x <- sort(rexp(1000, 10))
+plot(x, 1:length(x), pch = 19, col = col(x))
+plot(x, 1:length(x), pch = 19, col = col(x, method = "quantile", n = 5))
 }
 
