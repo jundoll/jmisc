@@ -1,4 +1,5 @@
 .onLoad <- function(libname, pkgname) {
+  ### set options
   op <- options()
   op.jmisc <- list(
     jmisc.proxy.url = NULL,
