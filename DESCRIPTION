@@ -1,8 +1,8 @@
 Package: jmisc
 Type: Package
 Title: Misc Package by jundoll
-Version: 0.0.3.3
-Date: 2016-12-21
+Version: 0.0.3.4
+Date: 2016-12-22
 Author: Atsushi Yoshida (@jun2_3)
 Maintainer: jundoll <jundoll33@gmail.com>
 Description: Misc Package by jundoll
@@ -13,5 +13,6 @@ Depends:
 Imports:
     httr,
     rjson,
-    RCurl
+    RCurl,
+    readr
 RoxygenNote: 5.0.1
