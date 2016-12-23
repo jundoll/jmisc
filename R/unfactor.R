@@ -1,6 +1,7 @@
 #' Undescribe
 #' 
-#' @param Undescribe
+#' @param x Undescribed
+#' @param ... Undescribed
 #' 
 #' @return Undescribe
 #' @examples

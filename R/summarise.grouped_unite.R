@@ -1,6 +1,7 @@
 #' Undescribe
 #' 
-#' @param Undescribe
+#' @param .data Undescribed
+#' @param ... Undescribed
 #' 
 #' @return Undescribe
 summarise <- function(.data, ...) {

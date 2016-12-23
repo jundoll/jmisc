@@ -4,6 +4,7 @@
 #' @param colors A character vector of the base colors to interpolate
 #' @param method An interpolation method. Choose from "linear" or "quantile".
 #' @param n If `method` is "quantile", select the number of the division.
+#' @param ... Undescribed
 #' 
 #' @return The interpolated color code
 #' @examples

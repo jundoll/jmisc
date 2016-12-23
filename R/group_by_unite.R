@@ -1,6 +1,10 @@
 #' Undescribe
 #' 
-#' @param Undescribe
+#' @param data Undescribed
+#' @param ... Undescribed
+#' @param col_n Undescribed
+#' @param sep Undescribed
+#' @param remove Undescribe
 #' 
 #' @return Undescribe
 #' @examples

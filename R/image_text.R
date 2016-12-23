@@ -1,6 +1,12 @@
 #' Undescribed
 #' 
-#' @param Undescribed
+#' @param x Undescribed
+#' @param x_labels Undescribed
+#' @param y_labels Undescribed
+#' @param in_labels Undescribed
+#' @param ... Undescribed
+#' @param mcex Undescribed
+#' @param tcex Undescribed
 #' 
 #' @return Undescribed
 #' @examples

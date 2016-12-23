@@ -9,10 +9,11 @@ Description: Misc Package by jundoll
 License: GPL-2
 Depends:
     dplyr (>= 0.4),
-    tidyr (>= 0.3)
+    tidyr (>= 0.3),
 Imports:
     httr,
     rjson,
     RCurl,
-    readr
+    readr,
+    lazyeval
 RoxygenNote: 5.0.1

@@ -1,6 +1,7 @@
 #' Undescribed
 #' 
-#' @param Undescribed
+#' @param df Undescribed
+#' @param value Undescribed
 #' 
 #' @return Undescribed
 #' @examples

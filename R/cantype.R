@@ -1,6 +1,7 @@
 #' Undescribe
 #' 
-#' @param Undescribe
+#' @param x Undescribe
+#' @param ... Undescribe
 #' 
 #' @return Undescribe
 #' @examples
@@ -10,9 +11,20 @@
 #' cantype(dat_int)
 #' (dat_num <- as.character(rnorm(10)))
 #' cantype(dat_num)
+#' (dats <- data.frame(dat_logi, dat_int, dat_num))
+#' cantype(dats)
 #' @export
 cantype <- function(x, ...) {
-  stopifnot(is.vector(x))
-  stopifnot(class(x) %in% c("logical", "integer", "numeric", "complex", "character", "factor"))
-  type.convert(as.character(x), as.is = TRUE, ...)
+  if(is.list(x)) {
+    for(i in 1:length(x)) {
+      x[[i]] <- cantype(x[[i]])
+    }
+  } else if(is.logical(x) | is.integer(x) | is.numeric(x) | is.complex(x) | is.character(x)) {
+    return(type.convert(as.character(x), as.is = TRUE, ...))
+  } else if(is.factor(x)) {
+    return(type.convert(as.character(x), as.is = FALSE, ...))
+  } else {
+    stop('Unknown error!! Please report the error status.')
+  }
+  x
 }

@@ -15,6 +15,5 @@ LaTeX: XeLaTeX
 BuildType: Package
 PackageUseDevtools: Yes
 PackageInstallArgs: --no-multiarch --with-keep.source
-PackageBuildArgs: --with-keep.source
 PackageBuildBinaryArgs: --with-keep.source
 PackageRoxygenize: rd,collate,namespace

@@ -1,6 +1,6 @@
 #' Undescribe
 #' 
-#' @param Undescribe
+#' @param .data Undescribed
 #' 
 #' @return Undescribe
 print.grouped_df_unite <- function(.data) {

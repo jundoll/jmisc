@@ -1,6 +1,6 @@
 #' notify command by URL(http://uribo.hatenablog.com/entry/2015/09/22/120815)
 #' 
-#' @param Undescribe
+#' @param msg Undescribed
 #' 
 #' @return Undescribe
 #' @export

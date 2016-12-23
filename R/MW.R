@@ -1,8 +1,8 @@
 #' Moving window
 #' 
-#' @param x Sequence of values
-#' @param FUN The function to be applied to each window.
-#' @param int
+#' @param dat Sequence of values
+#' @param FUN The function to be applied to each window
+#' @param int Window size
 #' 
 #' @return first mode value
 #' @examples

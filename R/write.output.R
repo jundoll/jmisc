@@ -1,6 +1,9 @@
 #' Return only first mode value
 #' 
-#' @param sequence of values
+#' @param ... sequence of values
+#' @param file Undescribed
+#' @param append Undescribed
+#' @param cout Undescribed
 #' 
 #' @return first mode value
 #' @examples

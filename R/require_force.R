@@ -1,4 +1,4 @@
-#' Undescribed
+#' Load/Attach (and Install) the package
 #' 
 #' @param pkgs packages
 #' @param ... option for `install.packages`
